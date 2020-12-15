@@ -1,0 +1,10 @@
+{
+    "start": 1607394835.57267,
+    "script": "test_xcx.air",
+    "tests": {
+        "9bf28fb1": {
+            "status": 4294967295,
+            "path": "D:\\multi-device-runner-master\\test_oppo.air\\log\\9bf28fb1\\2020-12-08_10_34_49log.html"
+        }
+    }
+}

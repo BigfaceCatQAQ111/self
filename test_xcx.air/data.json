@@ -1,0 +1,14 @@
+{
+    "start": 1607916435.1848118,
+    "script": "test_xcx.air",
+    "tests": {
+        "9bf28fb1": {
+            "status": 4294967295,
+            "path": "D:\\multi-device-runner-master\\test_xcx.air\\log\\9bf28fb1\\2020-12-14_11_27_43log.html"
+        },
+        "Z81QAEWPNDX3H": {
+            "status": 4294967295,
+            "path": "D:\\multi-device-runner-master\\test_xcx.air\\log\\Z81QAEWPNDX3H\\2020-12-14_11_28_11log.html"
+        }
+    }
+}

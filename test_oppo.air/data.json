@@ -1,0 +1,14 @@
+{
+    "start": 1607916393.9638174,
+    "script": "test_oppo.air",
+    "tests": {
+        "9bf28fb1": {
+            "status": 4294967295,
+            "path": "D:\\multi-device-runner-master\\test_oppo.air\\log\\9bf28fb1\\2020-12-14_11_26_40log.html"
+        },
+        "Z81QAEWPNDX3H": {
+            "status": 4294967295,
+            "path": "D:\\multi-device-runner-master\\test_oppo.air\\log\\Z81QAEWPNDX3H\\2020-12-14_11_27_12log.html"
+        }
+    }
+}
