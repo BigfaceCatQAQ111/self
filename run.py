@@ -237,9 +237,9 @@ def change_url(device, air, ftp):
     for dev in device:
         solo_report = ftp + "\\" + dev + "\\" + "log.html"
 
-    old_str = r"D:\multi-device-runner-master\test_oppo.air\log"
+    old_str = "D:\\multi-device-runner-master" + "\\" +air + "\\" + "log"
     old_str_1 = r"c:/users/c/appdata/local/programs/python/python37/lib/site-packages/airtest"
-    old_str_2 = r"D:\\multi-device-runner-master\\test_oppo.air\\log"
+    old_str_2 = r"D:\\multi-device-runner-master"  + r"\\" + air + r"\\" + "log"
     old_str_3 = r"c://users//c//appdata//local//programs//python//python37//lib//site-packages//airtest"
     new_str = "http://47.108.203.157:15000/" + r"/" + project_name + r"/" + air + r"/" + folder_name
     new_str_1 = r"http://47.108.203.157:15000/airtest"
@@ -259,7 +259,7 @@ def change_url(device, air, ftp):
                     # line1 = line1.replace("\\", "/")
                 if old_str in line1:
                     line1 = line1.replace(old_str, new_str)
-                    line1 = line1.replace("\\", "/")
+                #     # line1 = line1.replace("\\", "/")
                 if old_str_2 in line1:
                     line1 = line1.replace(old_str_2, new_str)
                 if old_str_3 in line1:
@@ -322,7 +322,7 @@ if __name__ == '__main__':
     airs = os.listdir(os.getcwd())
 
     # with open(report, "r", encoding="utf-8") as f:
-    #     f.read()
+    #     f.read(
     #     print(f)
     # soup = BeautifulSoup(open(report), features='html.parser')
     # print(soup)
