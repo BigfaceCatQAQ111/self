@@ -12,7 +12,7 @@ from jinja2 import Environment, FileSystemLoader
 import sendmail
 import xlrd
 import paramiko
-from install import Install_App
+from install import InstallApp
 from bs4 import BeautifulSoup
 
 
@@ -327,7 +327,7 @@ if __name__ == '__main__':
     """
     devices = [tmp[0] for tmp in ADB().devices()]
     airs = os.listdir(os.getcwd())
-    Install_App.install_app(devices)
+
     # with open(report, "r", encoding="utf-8") as f:
     #     f.read(
     #     print(f)
@@ -338,7 +338,7 @@ if __name__ == '__main__':
 
     for air in airs:
         if '.air' in air:
-
+            InstallApp.install_app(devices)
             run(devices, air, run_all=True)
 
             mail = sendmail.SendMail()
